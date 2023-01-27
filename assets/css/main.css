@@ -42,16 +42,13 @@ main{
 .contentLogin{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 10px;
 }
 
 /*Form --> Email*/
 
 .loginEmail{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    align-self: flex-start;
     gap: 9px;
     padding: 5px 0;
     width: 100%;
@@ -64,7 +61,7 @@ main{
     font-family: var(--text);
 }
 
-.input-login{
+.input-login{ /*Input*/
     display: flex;
     width: 100%;
     height: 3vh;
@@ -75,8 +72,49 @@ main{
     /*Organizar a escrita do email*/
 }
 
-.input-login::placeholder{
+.input-login::placeholder{ /*Input placeholder*/
     font-size: 16px;
     font-family: var(--text);
+}
+
+.text-login{
+    color: var(--marsala);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/*Form --> Password*/
+
+.loginPassword{
+    align-items: flex-start;
+    gap: 9px;
+    width: 100%;
+}
+
+/*Form --> Forgot password*/
+
+.forgotPassword{
+    align-items: flex-end;
+    display: flex;
+    justify-content: end;
+    margin: .5rem;
+}
+
+.passwordText:hover{
+    color: black;
+    font-size: 16px;
+}
+
+/*Button*/
+
+.button-login{
+    align-self: center;
+    background: var(--marsala);
+    border-radius: 10px;
+    color: var(--white);
+    font-family: var(--title);
+    font-size: ;
+    width: 15vh;
+    height: 4vh;
 }
 
