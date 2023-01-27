@@ -7,18 +7,18 @@ main{
 
 .card{
     display: flex;
-    border: 2px solid var(--black);
+    border: .125rem solid var(--black);
     border-radius: 10px;
     justify-content: center;
-    height: 659px;
+    height: 70vh;
     width: 45vh;
 }
 
 .containerLogin{
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 32px;
+    gap: 2.813rem;
+    padding: 2rem;
     margin: 1rem;
     width: 100%;
 }
@@ -33,7 +33,7 @@ main{
 .title{
     font-weight: lighter;
     font-family: var(--title);
-    font-size: 44px;
+    font-size: 2.75em;
     text-transform: uppercase;
 }
 
@@ -42,29 +42,31 @@ main{
 .contentLogin{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625em;
 }
 
 /*Form --> Email*/
 
 .loginEmail{
     align-self: flex-start;
-    gap: 9px;
-    padding: 5px 0;
+    gap: 0.625em;
+    padding: 0.313em 0;
     width: 100%;
 }
 
 /*Form --> Fixos*/
 
 .subtitle-login{  /*Label*/
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: var(--text);
 }
 
 .input-login{ /*Input*/
     display: flex;
+    font-size: 1.063em;
     width: 100%;
     height: 3vh;
+    padding: 0 .5rem;
 
     border-top: 0;
     border-left: 0;
@@ -73,21 +75,21 @@ main{
 }
 
 .input-login::placeholder{ /*Input placeholder*/
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--text);
 }
+
 
 .text-login{
     color: var(--marsala);
     font-weight: bolder;
-    text-decoration: none;
 }
 
 /*Form --> Password*/
 
 .loginPassword{
     align-items: flex-start;
-    gap: 9px;
+    gap: 0.563em;
     width: 100%;
 }
 
@@ -102,7 +104,7 @@ main{
 
 .passwordText:hover{
     color: black;
-    font-size: 16px;
+    font-size: 1.063em;
 }
 
 /*Button*/
@@ -110,11 +112,55 @@ main{
 .button-login{
     align-self: center;
     background: var(--marsala);
-    border-radius: 10px;
+    border: transparent;
+    border-radius: 1.25em;
     color: var(--white);
+    cursor: pointer;
     font-family: var(--title);
-    font-size: ;
-    width: 15vh;
-    height: 4vh;
+    font-size: 1.563em;
+    text-transform: uppercase;
+    width: 20vh;
+    height: 5vh;
 }
 
+/*Sign up Midias Sociais*/
+
+.signSocial { 
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitle{
+    font-size: 1.25rem;
+    color: var(--black);
+}
+
+.signBox{ /*div dos icones*/
+    display: flex;
+    gap: 1.375em;
+}
+
+/*Sign up Email*/
+
+.signEmail{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.signLink:hover{
+    color: var(--black);
+    font-size: 1.063em;
+}
+
+/*FOOTER*/
+
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+}

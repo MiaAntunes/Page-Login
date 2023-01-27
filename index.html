@@ -26,16 +26,16 @@
                 <form action="#" class="contentLogin">
                     <div class="loginEmail">
                         <label for="email" class="subtitle-login">Email</label>
-                        <input type="email" name="email" class="input-login" required title="Aqui é onde escreve o email" placeholder="username@gmail.com">
+                        <input type="email" name="email" class="input-login email" required title="Aqui é onde escreve o email" placeholder="username@gmail.com">
                     </div>
                     <div class="loginPassword">
                         <label for="password" class="subtitle-login">Password</label>
-                        <input type="password" class="input-login" name="password" id="input-password" required title="Aqui é onde escreve a senha" placeholder="*****"> 
+                        <input type="password" class="input-login password" name="password" id="input-password" required title="Aqui é onde escreve a senha" placeholder="*****"> 
                     </div>
                     <div class="forgotPassword">
                         <a href="http://" class="text-login passwordText" title="Link para mudar a senha" >Forgot password?</a>
                     </div>
-                    <button class="button-login" title="Botão para Logar na página">Login in</button>
+                    <button class="button-login" title="Botão para Logar na página" onclick="logar()">Login in</button>
                 </form>
 
                 <div class="signSocial">
@@ -60,12 +60,15 @@
                 </div>
 
                 <div class="signEmail">
-                    <a href="http://"> 
-                        <p class="text-login emailSubtitlte">Or Sign up Email</P>
+                    <a href="#" class="text-login signLink">Or Sign up Email</a>
                     </a>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <p class="footerText">&COPY; Camila Antunes | 2023</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
