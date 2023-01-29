@@ -1,0 +1,60 @@
+@media screen and (max-width:500px){
+	.card{
+        width:auto;
+    }
+
+    .containerLogin{
+        gap: 20px; /*rever*/
+        padding: 1em;
+        
+    }
+
+    .title{
+        font-size: 1.5rem; /*(30px)*/
+    }
+
+    .loginEmail{
+
+    }
+
+    .subtitle-login{
+        font-size: 15px;
+        padding: .5rem 0;
+    }
+
+    .input-login, .input-login::placeholder{
+        font-size: 0.9em;
+        padding: 0;
+    }
+        
+    .forgotPassword, .forgotPassword:hover, footer{
+        font-size: 13px;
+    }
+
+    .button-login{
+        font-size: 1em;
+    }
+
+
+    .subtitle, .signLink, .signLink:hover{ /*Sign Rede sociais*/
+        font-size: .85rem;
+    }
+
+    .boxLinks{
+        gap: .5rem;
+    }
+
+    .icon-image{
+        width: 30px;
+    }
+
+
+}
+
+@media  screen and (max-width:1000px) {
+    .card{
+        width: auto;
+    }
+}
+
+/*Fazer uma adaptação para o Nest Hub (Alexa)*/

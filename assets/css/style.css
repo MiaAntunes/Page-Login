@@ -1,4 +1,5 @@
 @import url(main.css);
+@import url(mediaQ.css);
 
 :root{
     --marsala:#730606F7;
