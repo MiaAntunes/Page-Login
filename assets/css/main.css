@@ -1,25 +1,25 @@
 main{
     align-items: center;
     display: flex;
-    justify-content: center;
     height: 100vh;
+    justify-content: center;
 }
 
 .card{
-    display: flex;
     border: .125rem solid var(--black);
     border-radius: 10px;
+    display: flex;
+    height: auto;   
     justify-content: center;
-    height: auto;
     width: 45vh;
 }
 
 .containerLogin{
     display: flex;
     flex-direction: column;
-    gap: 2.3rem; /*(45px)*/
+    gap: 2.3rem; 
+    margin: 1rem;   
     padding: 2rem;
-    margin: 1rem;
     width: 100%;
 }
 
@@ -31,9 +31,9 @@ main{
 }
 
 .title{
-    font-weight: lighter;
     font-family: var(--title);
-    font-size: 2.4em; /*(44px)*/
+    font-size: 2.4em; 
+    font-weight: lighter;
     text-transform: uppercase;
 }
 
@@ -102,7 +102,6 @@ main{
     margin: .5rem;
 }
 
-
 .passwordText:hover{
     color: black;
     font-size: 1.063em;
@@ -119,9 +118,9 @@ main{
     cursor: pointer;
     font-family: var(--title);
     font-size: 1.563em;
+    height: 5vh;
     text-transform: uppercase;
     width: 20vh;
-    height: 5vh;
 }
 
 /*Sign up Midias Sociais*/
@@ -129,8 +128,8 @@ main{
 .signSocial { 
     align-items: center;
     display: flex;
-    gap: 1rem;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .subtitle{
@@ -159,8 +158,6 @@ main{
     color: var(--black);
     font-size: 1.063em;
 }
-
-
 
 /*FOOTER*/
 
