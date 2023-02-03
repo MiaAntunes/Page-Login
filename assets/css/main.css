@@ -49,6 +49,8 @@ main{
 
 .loginEmail{
     align-self: flex-start;
+    display: flex;
+    flex-direction: column;
     gap: 0.625em;
     padding: 0.313em 0;
     width: 100%;
@@ -65,7 +67,7 @@ main{
     display: flex;
     font-size: 1.063em;
     width: 100%;
-    height: 3vh;
+    height: 4vh;
     padding: 0 .5rem;
 
     border-top: 0;
@@ -89,6 +91,8 @@ main{
 
 .loginPassword{
     align-items: flex-start;
+    display: flex;
+    flex-direction: column;
     gap: 0.563em;
     width: 100%;
 }

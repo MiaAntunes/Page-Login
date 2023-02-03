@@ -1,11 +1,11 @@
-@media screen and (max-width:500px){
+@media screen and (max-width:1440px){
 	.card{
-        width:auto;
+        width:30%;
     }
 
     .containerLogin{
         gap: 20px; /*rever*/
-        padding: 1em;
+        padding: .5em;
         
     }
 
@@ -13,13 +13,14 @@
         font-size: 1.5rem; /*(30px)*/
     }
 
-    .loginEmail{
-
-    }
 
     .subtitle-login{
         font-size: 15px;
-        padding: .5rem 0;
+        padding: 0;
+    }
+
+    .loginEmail, .loginPassword{
+        gap: .5em;
     }
 
     .input-login, .input-login::placeholder{
@@ -31,21 +32,24 @@
         font-size: 13px;
     }
 
-    .button-login{
+    .button-login, .subtitle{
         font-size: 1em;
     }
 
+    .signLink{ /*Sign Rede sociais*/
+        font-size: .85em;
+    }
 
-    .subtitle, .signLink, .signLink:hover{ /*Sign Rede sociais*/
-        font-size: .85rem;
+    .signLink:hover{
+        font-size: .9em;
     }
 
     .boxLinks{
-        gap: .5rem;
+        gap: .8rem;
     }
 
     .icon-image{
-        width: 30px;
+        width: 28px;
     }
 
 
